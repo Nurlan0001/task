@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 5000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0;
+}
+
+.bar {
+  width: 100%;
+  background-color: #144087;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.bar .Start {
+  margin-left: 370px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+.bar .portfolio {
+  display: flex;
+  justify-content: flex-end;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  font-weight: 300px;
+  margin-right: 230px;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 11px;
+}
+.bar .portfolio li {
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.5s linear;
+}
+.bar .portfolio li:hover {
+  border: 0.1px solid;
+  border-radius: 10%;
+  background-color: teal;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main .Bootstrap {
+  background-color: teal;
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  text-align: center;
+}
+.main .Bootstrap img {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+.main .Bootstrap h3 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+.main .Bootstrap .line {
+  width: 48px;
+  height: 1px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+.main .Bootstrap i {
+  color: white;
+}
+.main .Bootstrap p {
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+.wrapper .line {
+  width: 48px;
+  height: 2px;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+}
+
+.images1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.images1 .container {
+  width: 60%;
+  margin: auto;
+}
+.images1 .container img {
+  width: 32%;
+}
+
+.ABOUT {
+  display: flex;
+  justify-content: center;
+  background-color: teal;
+  width: 100%;
+  height: 300px;
+}
+.ABOUT h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+.ABOUT .line {
+  width: 60px;
+  height: 1px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+.ABOUT i {
+  color: white;
+}
+.ABOUT button {
+  width: 150px;
+  height: 30px;
+  margin-top: 150px;
+  display: block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+}
+.Contact h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+}
+.Contact .line {
+  width: 130px;
+  height: 1px;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+}
+.Contact i {
+  color: black;
+}
+.Contact input {
+  margin-left: 60px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  border: none;
+  border-bottom: 0.1px solid grey;
+}
+.Contact hr {
+  margin-top: 100px;
+  width: 300px;
+}
+.Contact button {
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 10%;
+  margin-top: 30px;
+  width: 60px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
